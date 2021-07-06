@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="curve.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="modelerapp.cpp" />
+    <ClCompile Include="modelerdraw.cpp" />
+    <ClCompile Include="modelerui.cpp" />
+    <ClCompile Include="modeleruiwindows.cxx" />
+    <ClCompile Include="modelerview.cpp" />
+    <ClCompile Include="MyModel.cpp" />
+    <ClCompile Include="robotarm.cpp" />
+    <ClCompile Include="bitmap.cpp" />
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="particleSystem.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="pointObj.cpp" />
+    <ClCompile Include="graphwidget.cpp" />
+    <ClCompile Include="indicatorwindow.cpp" />
+    <ClCompile Include="rect.cpp" />
+    <ClCompile Include="rulerwindow.cpp" />
+    <ClCompile Include="Bspline.cpp">
+      <Filter>curveevaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C0Bezier.cpp">
+      <Filter>curveevaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="CatmullRom.cpp">
+      <Filter>curveevaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="curveevaluator.cpp">
+      <Filter>curveevaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="linearcurveevaluator.cpp">
+      <Filter>curveevaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C2Hermite.cpp">
+      <Filter>curveevaluator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="curve.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="modelerdraw.h" />
+    <ClInclude Include="modelerui.h" />
+    <ClInclude Include="modeleruiwindows.h" />
+    <ClInclude Include="modelerview.h" />
+    <ClInclude Include="bitmap.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="particleSystem.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="pointObj.h" />
+    <ClInclude Include="graphwidget.h" />
+    <ClInclude Include="indicatorwindow.h" />
+    <ClInclude Include="modelerapp.h" />
+    <ClInclude Include="rect.h" />
+    <ClInclude Include="rulerwindow.h" />
+    <ClInclude Include="mat.h" />
+    <ClInclude Include="vec.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Bspline.h">
+      <Filter>curveevaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C0Bezier.h">
+      <Filter>curveevaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="CatmullRom.h">
+      <Filter>curveevaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="curveevaluator.h">
+      <Filter>curveevaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="linearcurveevaluator.h">
+      <Filter>curveevaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C2Hermite.h">
+      <Filter>curveevaluator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cleanskel.pl" />
+    <None Include="modeleruiwindows.fl" />
+    <None Include="skelrenamer.pl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="modeler.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="curveevaluator">
+      <UniqueIdentifier>{30612891-1db9-428f-aec8-fb6f5c139e9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
