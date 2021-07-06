@@ -1,0 +1,37 @@
+[W]Change the default light
+[B]Texture on model(support multiple textures)
+[B]Frame All
+[BW] handle camera twists (Hold LMB + RMB,rotate with respect to the center of the window )
+<<<<<<< Updated upstream
+[B]Animation
+[2B]Mood cycling
+<<<<<<< Updated upstream
+[2B+]Procedural modeling (Hightly controllable tree generator! check under "view")
+=======
+[2B+]Procedural modeling
+[2B]primitive (torus)
+>>>>>>> Stashed changes
+=======
+[B] Animation
+[2B] Mood cycling
+
+>>>>>>> Stashed changes
+
+Additional feature:
+
+Implemented support for loading .FBX standar model file. Can be access via button under "File". 
+Allow whole model move in xyz
+
+Probably also satisfy "[B] using the 'triangle' primitive to render them." ?
+
+*Moddel should contains polygon with with 3/4 edges*
+
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+Total: 10 +
+=======
+Total: 12 +
+>>>>>>> Stashed changes
+=======
+Total: 6
+>>>>>>> Stashed changes
